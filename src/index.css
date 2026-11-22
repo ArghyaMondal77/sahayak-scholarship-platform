@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.35;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.25'/%3E%3C/svg%3E");
+  }
+}
+
+.font-calligraphy { font-family: 'Galada', cursive; }
+.font-display { font-family: 'Fraunces', serif; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 45s linear infinite; }
+.marquee-wrap:hover .marquee-track { animation-play-state: paused; }
+
+.lite-mode *, .lite-mode *::before, .lite-mode *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+.lite-mode *, .lite-mode *::before, .lite-mode *::after { animation: none !important; transition: none !important; }
+.lite-mode * { backdrop-filter: none !important; box-shadow: none !important; background-image: none !important; }
+.lite-mode * { border-color: #1f2937 !important; }
+.lite-mode, .lite-mode body, .lite-mode button, .lite-mode input, .lite-mode select, .lite-mode textarea { font-family: system-ui, -apple-system, sans-serif !important; }
+.lite-mode main section, .lite-mode main section > div, .lite-mode [style*="opacity"] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+
+.animate-ken-burns { animation: ken-burns 20s ease-out forwards; }
+@keyframes ken-burns { from { transform: scale(1); } to { transform: scale(1.08); } }

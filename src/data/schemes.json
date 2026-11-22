@@ -1,0 +1,445 @@
+[
+  {
+    "id": "wb-svmcm",
+    "deadline_date": null,
+    "name": "Swami Vivekananda Merit-cum-Means (SVMCM)",
+    "provider_type": "state_govt",
+    "nodal_agency": "Higher Education Department, Govt. of West Bengal",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": 250000,
+      "income_note": "No income limit for Board Toppers, Kanyashree (K3), or M.Phil/Ph.D applicants",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": false,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_11_12", "streams": ["all"], "min_marks": 60, "max_marks": null, "max_amount_inr": 12000, "benefit_text": "₹1,000/month (HS & D.El.Ed)" },
+      { "stage": "diploma", "streams": ["engineering", "medical", "all"], "min_marks": 60, "max_marks": null, "max_amount_inr": 18000, "benefit_text": "₹1,500/month (Polytechnic / Medical Diploma)" },
+      { "stage": "ug", "streams": ["arts", "commerce"], "min_marks": 60, "max_marks": null, "max_amount_inr": 12000, "benefit_text": "₹1,000/month" },
+      { "stage": "ug", "streams": ["science", "professional"], "min_marks": 60, "max_marks": null, "max_amount_inr": 18000, "benefit_text": "₹1,500/month" },
+      { "stage": "ug", "streams": ["engineering", "medical"], "min_marks": 60, "max_marks": null, "max_amount_inr": 60000, "benefit_text": "₹5,000/month" },
+      { "stage": "pg", "streams": ["arts", "commerce"], "min_marks": 53, "max_marks": null, "max_amount_inr": 24000, "benefit_text": "₹2,000/month (45% marks for Kanyashree K3 girls)" },
+      { "stage": "pg", "streams": ["science", "professional"], "min_marks": 53, "max_marks": null, "max_amount_inr": 30000, "benefit_text": "₹2,500/month (45% marks for Kanyashree K3 girls)" },
+      { "stage": "pg", "streams": ["engineering"], "min_marks": 55, "max_marks": null, "max_amount_inr": 60000, "benefit_text": "₹5,000/month" },
+      { "stage": "phd", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 96000, "benefit_text": "₹5,000/mo (Non-NET M.Phil) / ₹8,000/mo (Non-NET Ph.D)" }
+    ],
+    "exclusivity_note": "Cannot avail any other Central or State Government scholarship/stipend for the same course. One-time grants or institutional freeships are allowed.",
+    "documents": [
+      "Last qualifying exam marksheet",
+      "Family income certificate (not required for K3/PhD/Toppers)",
+      "WB domicile / residency proof",
+      "Admission receipt & College ID",
+      "Active bank passbook (student's own name, DBT-enabled)",
+      "Identity proof (for official portal verification)"
+    ],
+    "apply_mode": "Online (No hard copy submission required)",
+    "deadline": "Check portal for 2026-27 cycle (Failed transaction correction by 30 June)",
+    "official_url": "https://svmcm.wb.gov.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-kanyaratna",
+    "deadline_date": null,
+    "name": "WB Kanyaratna Education Grant (formerly Kanyashree Prakalpa)",
+    "provider_type": "state_govt",
+    "nodal_agency": "Dept. of Women & Child Development and Social Welfare, WB",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["female"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": null,
+      "income_note": "No family income limit (₹1.2L ceiling was withdrawn from 2018-19)",
+      "min_disability_pct": 0,
+      "unmarried_only": true,
+      "govt_institute_only": false,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_5_8", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 1000, "benefit_text": "K1: ₹1,000/yr (increasing to ₹2,000/yr from 2027) for age 13–18" },
+      { "stage": "class_9_10", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 1000, "benefit_text": "K1: ₹1,000/yr (₹2,000/yr from 2027) for unmarried girls aged 13–18" },
+      { "stage": "class_11_12", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 25000, "benefit_text": "K1 Annual + K2 One-time ₹25,000 at age 18–19 (doubling to ₹50,000 from 2027)" },
+      { "stage": "ug", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 25000, "benefit_text": "K2 One-time ₹25,000 at age 18–19 (doubling to ₹50,000 from 2027)" }
+    ],
+    "exclusivity_note": "Girls securing 60%+ in Class 12 may also apply separately for SVMCM.",
+    "documents": [
+      "Proof of date of birth",
+      "Educational / enrolment proof",
+      "Bank account details of the girl applicant",
+      "Prescribed Kanyaratna application form from institution",
+      "Declaration confirming unmarried status"
+    ],
+    "apply_mode": "Offline through School / College",
+    "deadline": "Ongoing via respective educational institution",
+    "official_url": "https://www.wbkanyashree.gov.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-oasis",
+    "deadline_date": null,
+    "name": "OASIS Scholarship (Pre & Post-Matric SC/ST/OBC)",
+    "provider_type": "state_govt",
+    "nodal_agency": "Backward Classes Welfare Department, Govt. of WB",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["sc", "st", "obc"],
+      "max_income": 250000,
+      "income_note": "Pre-Matric (SC/ST/OBC): ≤ ₹2L | Post-Matric SC/ST: ≤ ₹2.5L | Post-Matric OBC: ≤ ₹1L",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": false,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_9_10", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 17000, "benefit_text": "SC: ₹3,500 (Day) / ₹17,000 (Hosteller) | OBC (Class 5–10): ₹4,000/yr" },
+      { "stage": "class_11_12", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 12000, "benefit_text": "SC/ST: ₹2,500–₹12,000/yr | OBC: ₹8,000/yr (Income ≤ ₹1L for OBC)" },
+      { "stage": "diploma", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 13500, "benefit_text": "SC/ST: ₹7,000–₹13,500/yr | OBC ITI/Vocational: ₹5,000/yr" },
+      { "stage": "ug", "streams": ["arts", "commerce", "science"], "min_marks": 0, "max_marks": null, "max_amount_inr": 13000, "benefit_text": "SC/ST: ₹4,500–₹12,000/yr | OBC: ₹13,000/yr" },
+      { "stage": "ug", "streams": ["engineering", "medical", "professional"], "min_marks": 0, "max_marks": null, "max_amount_inr": 20000, "benefit_text": "SC/ST: ₹7,000–₹13,500/yr | OBC: ₹20,000/yr" },
+      { "stage": "pg", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 20000, "benefit_text": "SC/ST: Up to ₹13,500/yr | OBC: Up to ₹20,000/yr" },
+      { "stage": "phd", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 20000, "benefit_text": "Post-Matric SC/ST/OBC rates as per course group" }
+    ],
+    "exclusivity_note": "Standard state post-matric scholarship rules apply; cannot hold duplicate state scholarships.",
+    "documents": [
+      "Digitally signed Caste Certificate (SC/ST/OBC)",
+      "Valid Income Certificate (issued within last 12 months)",
+      "Last qualifying exam marksheet",
+      "DBT-enabled Bank Passbook first page",
+      "Passport-size photograph & Identity proof"
+    ],
+    "apply_mode": "Online (100% paperless via OASIS portal)",
+    "deadline": "2026-27 Academic Session (Check portal for closing date)",
+    "official_url": "https://oasis.gov.in/",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-aikyashree",
+    "deadline_date": "2027-02-15",
+    "name": "Aikyashree Scholarship (Post-Matric, TSP & Minority SVMCM)",
+    "provider_type": "state_govt",
+    "nodal_agency": "WB Minorities Development & Finance Corporation (WBMDFC)",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["minority"],
+      "max_income": 250000,
+      "income_note": "Post-Matric & TSP: ≤ ₹2L/yr | Minority SVMCM: ≤ ₹2.5L/yr (Buddhist, Christian, Jain, Muslim, Parsi, Sikh)",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": false,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_11_12", "streams": ["all"], "min_marks": 50, "max_marks": null, "max_amount_inr": 16500, "benefit_text": "Post-Matric: Up to ₹16,500/yr | TSP: Up to ₹4,900/yr | SVMCM (60%+): Higher rates" },
+      { "stage": "diploma", "streams": ["all"], "min_marks": 50, "max_marks": null, "max_amount_inr": 18000, "benefit_text": "Post-Matric / Minority SVMCM (60%+ marks)" },
+      { "stage": "ug", "streams": ["all"], "min_marks": 50, "max_marks": null, "max_amount_inr": 60000, "benefit_text": "Post-Matric (50%+): Up to ₹16,500 | Minority SVMCM (60%+): Up to ₹60,000" },
+      { "stage": "pg", "streams": ["all"], "min_marks": 50, "max_marks": null, "max_amount_inr": 60000, "benefit_text": "Post-Matric (50%+): Up to ₹16,500 | Minority SVMCM (53% Gen / 55% Engg): Up to ₹60,000" },
+      { "stage": "phd", "streams": ["all"], "min_marks": 50, "max_marks": null, "max_amount_inr": 60000, "benefit_text": "Post-Matric / Minority SVMCM eligible courses" }
+    ],
+    "exclusivity_note": "Duplicate or conflicting scholarship applications will lead to rejection.",
+    "documents": [
+      "Latest marksheet",
+      "Current Admission / Fee Receipt & Bonafide Certificate",
+      "Income Certificate",
+      "Active KYC-compliant Bank Passbook",
+      "Passport Photograph & Identity proof"
+    ],
+    "apply_mode": "Online via NSP WB Portal",
+    "deadline": "February 15, 2027 (Window: Aug 1, 2026 – Feb 15, 2027)",
+    "official_url": "https://nspwb.wbmdfc.org",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-nabanna",
+    "deadline_date": null,
+    "name": "Nabanna / Uttar Kanya Scholarship (CMRF Education Assistance)",
+    "provider_type": "state_govt",
+    "nodal_agency": "Chief Minister's Relief Fund (CMRF), Govt. of WB",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": 120000,
+      "income_note": "Annual family income must not exceed ₹1,20,000",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": false,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_11_12", "streams": ["all"], "min_marks": 50, "max_marks": 59.99, "max_amount_inr": 10000, "benefit_text": "Commonly ₹10,000/yr (For students scoring 50% to <60% in Madhyamik)" },
+      { "stage": "ug", "streams": ["all"], "min_marks": 50, "max_marks": 59.99, "max_amount_inr": 10000, "benefit_text": "Commonly ₹10,000/yr (For students scoring 50% to <60% in HS)" },
+      { "stage": "pg", "streams": ["all"], "min_marks": 50, "max_marks": 52.99, "max_amount_inr": 10000, "benefit_text": "Commonly ₹10,000/yr (For students scoring 50% to <53% in Graduation)" }
+    ],
+    "exclusivity_note": "Must NOT be receiving any Government or Non-Government scholarship/stipend for the same course.",
+    "documents": [
+      "Signed application addressed to the Hon'ble Chief Minister",
+      "Recommendation from local MLA/MP",
+      "Family Income Certificate (competent authority)",
+      "Self-declaration countersigned with stamp/seal by Head of Institution",
+      "10th Admit Card & Qualifying Exam Marksheet",
+      "Admission receipt & Bank passbook first page (PDFs < 500 KB)",
+      "Entrance Rank Card & Allotment Letter (for professional courses)"
+    ],
+    "apply_mode": "Online via WB CMRF Portal (submit within 90 days of registration)",
+    "deadline": "Open year-round (Can register once every 365 days)",
+    "official_url": "https://wbcmrf.gov.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-shikshashree",
+    "deadline_date": null,
+    "name": "West Bengal Shikshashree Scheme",
+    "provider_type": "state_govt",
+    "nodal_agency": "Backward Classes Welfare & Tribal Development Dept., WB",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["sc", "st"],
+      "max_income": 250000,
+      "income_note": "Annual family income up to ₹2,50,000",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": true,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_5_8", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 800, "benefit_text": "₹750/yr (SC Class 5–7) | ₹800/yr (SC Class 8 & ST Class 5–8)" }
+    ],
+    "exclusivity_note": "Must be enrolled in a Govt, Govt-aided, or Govt-recognised school in WB.",
+    "documents": [
+      "SC/ST Caste Certificate",
+      "Income Certificate",
+      "WB Residence Proof",
+      "School Bonafide / Enrollment Certificate",
+      "Student's Bank Passbook (DBT) & Passport-size photo"
+    ],
+    "apply_mode": "Online via OASIS Portal",
+    "deadline": "Check OASIS portal for 2026-27 cycle",
+    "official_url": "https://oasis.gov.in/",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-sarathi",
+    "deadline_date": null,
+    "name": "West Bengal SARATHI Scheme (formerly Sabooj Sathi)",
+    "provider_type": "state_govt",
+    "nodal_agency": "WB SC, ST, OBC Development & Finance Corporation",
+    "benefit_type": "in_kind",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": null,
+      "income_note": "No family income limit",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": true,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_9_10", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 0, "benefit_text": "Free Bicycle for Class IX students (extending to Class VIII from 2027-28)" }
+    ],
+    "exclusivity_note": "Must not have already received a bicycle under the scheme.",
+    "documents": [
+      "Proof of admission in Class IX",
+      "School ID / Banglar Shiksha Student Registration",
+      "Residential address & Active mobile number"
+    ],
+    "apply_mode": "Automatic through School (Banglar Shiksha / SARATHI Portal — no separate student form)",
+    "deadline": "Managed by school during Academic Year 2026-27",
+    "official_url": "https://wbsaboojsathi.gov.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-taruner-swapna",
+    "deadline_date": null,
+    "name": "West Bengal Taruner Swapna Scheme",
+    "provider_type": "state_govt",
+    "nodal_agency": "School Education Department, Govt. of WB",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": 200000,
+      "income_note": "Annual family income must not exceed ₹2,00,000",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": true,
+      "exam_required": false,
+      "first_year_only": false
+    },
+    "tiers": [
+      { "stage": "class_11_12", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 10000, "benefit_text": "₹10,000 one-time grant to buy Smartphone, Tablet, or PC" },
+      { "stage": "diploma", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 10000, "benefit_text": "₹10,000 one-time grant for ITI / Polytechnic students" }
+    ],
+    "exclusivity_note": "One-time grant. Must have no backlogs and must submit the purchase bill to the school.",
+    "documents": [
+      "Banglar Shiksha Student Code & School ID",
+      "WB Residence Proof",
+      "Income Certificate",
+      "Caste Certificate (if applicable)",
+      "Bank Account Details"
+    ],
+    "apply_mode": "Online via Taruner Swapna Portal (OTP verification)",
+    "deadline": "2026 Academic Session (Currently open — verify via school)",
+    "official_url": "https://banglarshiksha.wb.gov.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-bhagini-nivedita",
+    "deadline_date": null,
+    "name": "West Bengal Bhagini Nivedita Scheme",
+    "provider_type": "state_govt",
+    "nodal_agency": "Govt. of West Bengal (Cabinet approved Oct 2026)",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["female"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": null,
+      "income_note": "Detailed income/marks guidelines awaited from Govt. of WB",
+      "min_disability_pct": 0,
+      "unmarried_only": true,
+      "govt_institute_only": true,
+      "exam_required": false,
+      "first_year_only": true
+    },
+    "tiers": [
+      { "stage": "ug", "streams": ["all"], "min_marks": 0, "max_marks": null, "max_amount_inr": 17000, "benefit_text": "₹50,000 over 3 years (₹17,000 Yr 1 + ₹17,000 Yr 2 + ₹16,000 Yr 3) in Govt/Govt-aided colleges" }
+    ],
+    "exclusivity_note": "Cannot be combined with SVMS UG benefit; awaiting full official notification.",
+    "documents": [
+      "Proof of age & WB residence",
+      "Proof of 1st-year UG admission in Govt/Govt-aided college",
+      "Bank account details & Passport photo"
+    ],
+    "apply_mode": "Not officially announced yet (Expected launch Jan 2027)",
+    "deadline": "Awaiting official WB Government notification",
+    "official_url": "https://wb.gov.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "wb-jbnsts-senior",
+    "deadline_date": "2026-12-31",
+    "name": "JBNSTS Senior Talent Search / Bigyani Kanya Medha Britti",
+    "provider_type": "state_govt",
+    "nodal_agency": "Jagadis Bose National Science Talent Search (JBNSTS)",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "WB",
+      "genders": ["male", "female", "other"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": null,
+      "income_note": "No income limit (Pure merit via exam; Bigyani Kanya track is for girls only)",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": false,
+      "exam_required": true,
+      "first_year_only": true
+    },
+    "tiers": [
+      { "stage": "ug", "streams": ["science", "engineering", "medical"], "min_marks": 0, "max_marks": null, "max_amount_inr": 48000, "benefit_text": "Monthly stipend + book grant (Must pass 10+2 in 2026; B.Sc Hons / BS-MS / Engg / Med in WB; ₹200 exam fee)" }
+    ],
+    "exclusivity_note": "B.Sc Pass, Diploma, and B.Sc Nursing students are NOT eligible. Proof of 1st-year UG admission required by Dec 2026.",
+    "documents": [
+      "10th & 12th Marksheet (JPEG/PDF, max 1 MB)",
+      "Passport-size photo (< 100 KB) & Signature (< 50 KB)",
+      "Valid personal Email ID & Mobile Number (OTP)",
+      "Proof of 1st-year UG admission (submitted in Dec 2026)"
+    ],
+    "apply_mode": "Online Application + Selection Exam (₹200 fee)",
+    "deadline": "Admission proof submission by December 2026 (Check portal for exam dates)",
+    "official_url": "https://jbnsts.ac.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "central-aicte-saksham",
+    "deadline_date": null,
+    "name": "AICTE Saksham Scholarship (Specially-Abled Students)",
+    "provider_type": "central_govt",
+    "nodal_agency": "AICTE (via National Scholarship Portal)",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "ALL",
+      "genders": ["male", "female", "other"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": 800000,
+      "income_note": "Annual family income ≤ ₹8,00,000 (State/UT Govt issued certificate)",
+      "min_disability_pct": 40,
+      "unmarried_only": false,
+      "govt_institute_only": false,
+      "exam_required": false,
+      "first_year_only": true
+    },
+    "tiers": [
+      { "stage": "ug", "streams": ["engineering", "professional"], "min_marks": 0, "max_marks": null, "max_amount_inr": 50000, "benefit_text": "₹50,000/year lump sum (Max 4 yrs for 1st-yr entry, 3 yrs for 2nd-yr lateral entry in AICTE-approved institutes)" }
+    ],
+    "exclusivity_note": "Cannot receive any other scholarship, stipend, or financial assistance from any other source; violation requires full refund to AICTE. Max 2-year gap after qualifying exam.",
+    "documents": [
+      "Disability Certificate (≥ 40% disability)",
+      "10th & 12th Marksheet (or ITI/Diploma for lateral entry)",
+      "Annual Family Income Certificate (Appendix-II)",
+      "Study / Bonafide Certificate (Appendix-I)",
+      "Category Certificate (if applicable)"
+    ],
+    "apply_mode": "Online via National Scholarship Portal (NSP)",
+    "deadline": "Annual NSP cycle (Check scholarships.gov.in)",
+    "official_url": "https://scholarships.gov.in",
+    "last_verified": "2026-11-21"
+  },
+  {
+    "id": "private-reliance-ug",
+    "deadline_date": null,
+    "name": "Reliance Foundation Undergraduate Scholarship",
+    "provider_type": "private",
+    "nodal_agency": "Reliance Foundation",
+    "benefit_type": "cash",
+    "eligibility": {
+      "state": "ALL",
+      "genders": ["male", "female", "other"],
+      "castes": ["general", "sc", "st", "obc", "minority"],
+      "max_income": 1500000,
+      "income_note": "Household income ≤ ₹15,00,000 (Preference given to < ₹2,50,000)",
+      "min_disability_pct": 0,
+      "unmarried_only": false,
+      "govt_institute_only": false,
+      "exam_required": true,
+      "first_year_only": true
+    },
+    "tiers": [
+      { "stage": "ug", "streams": ["all"], "min_marks": 60, "max_marks": null, "max_amount_inr": 50000, "benefit_text": "Up to ₹2,00,000 total over degree duration (Any regular full-time 3+ yr UG stream; mandatory 60-min online Aptitude Test)" }
+    ],
+    "exclusivity_note": "Excludes 2nd-year+ students, distance/online degrees, 2-yr/6-yr UG degrees, and post-10th diploma holders.",
+    "documents": [
+      "Class 10 & Class 12 Marksheets",
+      "Bonafide Student Certificate from college",
+      "Household Income Proof (SDM/DM/Tehsildar/Panchayat/Ward Councillor)",
+      "Bank Passbook / Cancelled Cheque (in student's own name)",
+      "Proof of permanent address & Passport photo",
+      "Disability Certificate (if applicable)"
+    ],
+    "apply_mode": "Online + Mandatory 60-min Online Aptitude Test (No fee)",
+    "deadline": "2026-27 cycle closed Oct 5, 2026 (Next cycle opens Aug–Oct 2027)",
+    "official_url": "https://www.scholarships.reliancefoundation.org/UG_Scholarship",
+    "last_verified": "2026-11-21"
+  }
+]

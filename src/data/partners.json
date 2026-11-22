@@ -1,0 +1,102 @@
+{
+  "csc_centers": [
+    {
+      "id": "csc-kolkata-01",
+      "name": "Sahayak CSC — Esplanade Point",
+      "district": "Kolkata",
+      "address": "Sample Road Complex, near Esplanade Crossing, Kolkata",
+      "pin": "700069",
+      "fixed_fee": "₹30 – ₹50 (Govt Approved)",
+      "services": ["Online Form Fill-up", "PDF Scanning (<500KB)", "Status Tracking"],
+      "verified_by_admin": true,
+      "hours": "10:00 – 18:00, Mon–Sat"
+    },
+    {
+      "id": "csc-nadia-01",
+      "name": "Sahayak CSC — Krishnanagar Civic Point",
+      "district": "Nadia",
+      "address": "Sample Market Lane, Krishnanagar, Nadia",
+      "pin": "741101",
+      "fixed_fee": "₹30 – ₹50 (Govt Approved)",
+      "services": ["Online Form Fill-up", "PDF Scanning (<500KB)", "Status Tracking"],
+      "verified_by_admin": true,
+      "hours": "10:00 – 18:00, Mon–Sat"
+    },
+    {
+      "id": "csc-howrah-01",
+      "name": "Sahayak CSC — Howrah Station Road",
+      "district": "Howrah",
+      "address": "Sample Station Road Shopping Arcade, Howrah",
+      "pin": "711101",
+      "fixed_fee": "₹30 – ₹50 (Govt Approved)",
+      "services": ["Online Form Fill-up", "PDF Scanning (<500KB)", "Status Tracking"],
+      "verified_by_admin": true,
+      "hours": "10:00 – 18:00, Mon–Sat"
+    },
+    {
+      "id": "csc-purba-bardhaman-01",
+      "name": "Sahayak CSC — Bardhaman Municipal Square",
+      "district": "Purba Bardhaman",
+      "address": "Sample Rajbari Road, Bardhaman Town, Purba Bardhaman",
+      "pin": "713101",
+      "fixed_fee": "₹30 – ₹50 (Govt Approved)",
+      "services": ["Online Form Fill-up", "PDF Scanning (<500KB)", "Status Tracking"],
+      "verified_by_admin": true,
+      "hours": "10:00 – 18:00, Mon–Sat"
+    },
+    {
+      "id": "csc-bankura-01",
+      "name": "Sahayak CSC — Bankura Town Help Desk",
+      "district": "Bankura",
+      "address": "Sample Court Road, Bankura Town, Bankura",
+      "pin": "722101",
+      "fixed_fee": "₹30 – ₹50 (Govt Approved)",
+      "services": ["Online Form Fill-up", "PDF Scanning (<500KB)", "Status Tracking"],
+      "verified_by_admin": true,
+      "hours": "10:00 – 18:00, Mon–Sat"
+    },
+    {
+      "id": "csc-darjeeling-01",
+      "name": "Sahayak CSC — Siliguri Hill Cart Road",
+      "district": "Darjeeling",
+      "address": "Sample Hill Cart Road, Siliguri, Darjeeling",
+      "pin": "734001",
+      "fixed_fee": "₹30 – ₹50 (Govt Approved)",
+      "services": ["Online Form Fill-up", "PDF Scanning (<500KB)", "Status Tracking"],
+      "verified_by_admin": true,
+      "hours": "10:00 – 18:00, Mon–Sat"
+    }
+  ],
+  "bank_partners": [
+    {
+      "id": "bank-sbi-01",
+      "name": "State Bank of India (SBI) — Basic Savings / Student Zero-Balance",
+      "tagline": "Zero-balance basic savings for students",
+      "min_balance": "₹0",
+      "dbt_ready": true,
+      "docs_needed": ["Passport-size photo", "Address proof", "Scholarship ID or admission letter"],
+      "verified_by_admin": true,
+      "official_url": "https://sbi.co.in"
+    },
+    {
+      "id": "bank-ippb-01",
+      "name": "India Post Payments Bank (IPPB) — Doorstep DBT Account",
+      "tagline": "Doorstep account opening; DBT credited directly",
+      "min_balance": "₹0",
+      "dbt_ready": true,
+      "docs_needed": ["Passport-size photo", "Address proof", "Scholarship ID or admission letter"],
+      "verified_by_admin": true,
+      "official_url": "https://www.ippbonline.com"
+    },
+    {
+      "id": "bank-bgvb-01",
+      "name": "Bangiya Gramin Vikash Bank (BGVB) — Rural Student Savings",
+      "tagline": "Rural student savings with DBT support",
+      "min_balance": "₹0",
+      "dbt_ready": true,
+      "docs_needed": ["Passport-size photo", "Address proof", "Scholarship ID or admission letter"],
+      "verified_by_admin": true,
+      "official_url": "https://www.bgvb.in"
+    }
+  ]
+}

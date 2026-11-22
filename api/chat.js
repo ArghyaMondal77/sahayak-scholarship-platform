@@ -126,8 +126,8 @@ export default async function handler(req, res) {
     let schemes;
     let partners;
     try {
-      schemes = loadData('src/data/schemes.json');
-      partners = loadData('src/data/partners.json');
+           schemes = JSON.parse(fs.readFileSync(new URL('../src/data/schemes.json', import.meta.url), 'utf8'));
+           partners = JSON.parse(fs.readFileSync(new URL('../src/data/partners.json', import.meta.url), 'utf8'));
     } catch (err) {
       console.error('Failed to load scheme data:', err.message);
       return res.status(500).json({ error: 'Something went wrong' });
